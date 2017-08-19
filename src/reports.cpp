@@ -1115,6 +1115,7 @@ static config time_of_day_at(reports::context & rc, const map_location& mouseove
 	} else if(tod.bonus_modified < 0) {
 		tod_image += (formatter() << "~BLIT(" << game_config::images::tod_dark << ")").str();
 	}
+	if (preferences::flip_time()) tod_image += "~FL(horiz)";
 
 	return image_report(tod_image, tooltip.str(), "time_of_day_" + tod.id);
 }
@@ -1169,6 +1170,7 @@ static config unit_box_at(reports::context & rc, const map_location& mouseover_h
 		else if (local_tod.bonus_modified < 0) local_tod_image += game_config::images::tod_dark;
 		local_tod_image += ")";
 	}
+	if (preferences::flip_time()) local_tod_image += "~FL(horiz)";
 
 	const gamemap &map = rc.map();
 	t_translation::terrain_code terrain = map.get_terrain(mouseover_hex);
