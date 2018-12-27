@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-09-09 08:38 UTC\n"
+"POT-Creation-Date: 2018-12-27 16:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgid ""
 "Rediscover the secrets known by the lich lords of the Green Isle. They knew "
 "how to live forever, so why can't you?\n"
 "\n"
-"(Intermediate level, 21 scenarios.)\n"
+"(Hard level, 21 scenarios.)\n"
 msgstr ""
 
 #. [about]
@@ -530,8 +530,8 @@ msgid ""
 "mean to be on it."
 msgstr ""
 
-#. [side]: type=Bandit, id=Garcyn
 #. [unit]: type=Ghoul
+#. [side]: type=Bandit, id=Garcyn
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/03_Bandits.cfg:40
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/04_Becalmed.cfg:187
 msgid "Garcyn"
@@ -1607,8 +1607,8 @@ msgid ""
 "well."
 msgstr ""
 
-#. [side]: type=Merman Triton, id=Okean
 #. [side]
+#. [side]: type=Merman Triton, id=Okean
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:45
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:129
 msgid "Merfolk"
@@ -1657,8 +1657,8 @@ msgid ""
 "I wonder what are they from. A large flightless bird perhaps? Let us see."
 msgstr ""
 
-#. [message]: speaker=$other_human
 #. [message]: speaker=Ardonna
+#. [message]: speaker=$other_human
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:261
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:241
 msgid "Oh, you were right!"

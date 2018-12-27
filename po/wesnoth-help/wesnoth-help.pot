@@ -10,7 +10,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth-help.cpp.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-09-09 11:38+0300\n"
+"POT-Creation-Date: 2018-12-27 16:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  wesnoth-help.wml.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-09-09 08:38 UTC\n"
+"POT-Creation-Date: 2018-12-27 16:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,31 +36,27 @@ msgid "Underground"
 msgstr ""
 
 #. [berserk]: id=berserk
-#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:667
-#: data/core/macros/abilities.cfg:274
-msgid "berserk"
+#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:696
+msgid "righteous rage"
 msgstr ""
 
 #. [berserk]: id=berserk
-#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:669
-#: data/core/macros/abilities.cfg:275
+#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:698
 msgid ""
 "Whether used offensively or defensively, this attack presses the engagement "
-"until one of the combatants is slain, or 30 rounds of attacks have occurred."
+"until one of the champions is slain, or 30 rounds of attacks have occurred."
 msgstr ""
 
 #. [chance_to_hit]: id=magical
-#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:678
-#: data/core/macros/abilities.cfg:359
-msgid "magical"
+#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:707
+msgid "true strike"
 msgstr ""
 
 #. [chance_to_hit]: id=magical
-#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:680
-#: data/core/macros/abilities.cfg:360
+#: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:709
 msgid ""
 "This attack always has a 70% chance to hit regardless of the defensive "
-"ability of the unit being attacked."
+"ability of the champion being attacked."
 msgstr ""
 
 #. [heals]: id=healing
@@ -556,13 +552,27 @@ msgid ""
 "ref> and running east to the Listra."
 msgstr ""
 
-#. [topic]: id=great_ocean
+#. [topic]: id=great_river
 #: data/core/encyclopedia/geography.cfg:32
+msgid "Great River"
+msgstr ""
+
+#. [topic]: id=great_river
+#: data/core/encyclopedia/geography.cfg:33
+msgid ""
+"The Great River forms the boundary between the <ref>dst='kingdom_wesnoth' "
+"text='Kingdom of Wesnoth'</ref> and the <ref>dst='northlands' "
+"text='Northlands'</ref>. It empties to the <ref>dst='great_ocean' "
+"text='Great Ocean'</ref> at <ref>dst='elensefar' text='Elensefar'</ref>."
+msgstr ""
+
+#. [topic]: id=great_ocean
+#: data/core/encyclopedia/geography.cfg:38
 msgid "Great Ocean"
 msgstr ""
 
 #. [topic]: id=great_ocean
-#: data/core/encyclopedia/geography.cfg:33
+#: data/core/encyclopedia/geography.cfg:39
 msgid ""
 "Lies to the west of the <ref>dst='great_continent' text='continent'</ref> "
 "and all rivers eventually flow to it. Far to the west in the Great Ocean is "
@@ -570,12 +580,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=morogor
-#: data/core/encyclopedia/geography.cfg:38
+#: data/core/encyclopedia/geography.cfg:44
 msgid "Morogor"
 msgstr ""
 
 #. [topic]: id=morogor
-#: data/core/encyclopedia/geography.cfg:39
+#: data/core/encyclopedia/geography.cfg:45
 msgid ""
 "Archipelago, located somewhere in the <ref>dst='great_ocean' text='Great "
 "Ocean'</ref> east of the <ref>dst='green_isle' text='Green Isle'</ref> and "
@@ -585,35 +595,35 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=green_isle
-#: data/core/encyclopedia/geography.cfg:46
+#: data/core/encyclopedia/geography.cfg:52
 msgid "Green Isle"
 msgstr ""
 
 #. [topic]: id=green_isle
-#: data/core/encyclopedia/geography.cfg:47
+#: data/core/encyclopedia/geography.cfg:53
 msgid ""
 "A bigger island lying in the <ref>dst='great_ocean' text='Great Ocean'</ref>."
 msgstr ""
 
 #. [topic]: id=old_continent
-#: data/core/encyclopedia/geography.cfg:52
+#: data/core/encyclopedia/geography.cfg:58
 msgid "Old Continent"
 msgstr ""
 
 #. [topic]: id=old_continent
-#: data/core/encyclopedia/geography.cfg:53
+#: data/core/encyclopedia/geography.cfg:59
 msgid ""
 "Lies to the west of <ref>dst='morogor' text='Morogor'</ref> across the "
 "<ref>dst='great_ocean' text='Great Ocean'</ref>."
 msgstr ""
 
 #. [topic]: id=great_continent
-#: data/core/encyclopedia/geography.cfg:58
+#: data/core/encyclopedia/geography.cfg:64
 msgid "Great Continent"
 msgstr ""
 
 #. [topic]: id=great_continent
-#: data/core/encyclopedia/geography.cfg:59
+#: data/core/encyclopedia/geography.cfg:65
 msgid ""
 "The continent on which the <ref>dst='kingdom_wesnoth' text='Kingdom of "
 "Wesnoth'</ref> lies. Its west coast is surrounded by the "
@@ -621,12 +631,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=irdya
-#: data/core/encyclopedia/geography.cfg:64
+#: data/core/encyclopedia/geography.cfg:70
 msgid "Irdya"
 msgstr ""
 
 #. [topic]: id=irdya
-#: data/core/encyclopedia/geography.cfg:65
+#: data/core/encyclopedia/geography.cfg:71
 msgid ""
 "The name of the world in which the kingdom of <ref>dst='kingdom_wesnoth' "
 "text='Wesnoth'</ref> is situated is ‘Irdya’. This term is, however, only "
@@ -635,12 +645,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=kingdom_wesnoth
-#: data/core/encyclopedia/geography.cfg:70
+#: data/core/encyclopedia/geography.cfg:76
 msgid "Kingdom of Wesnoth"
 msgstr ""
 
 #. [topic]: id=kingdom_wesnoth
-#: data/core/encyclopedia/geography.cfg:71
+#: data/core/encyclopedia/geography.cfg:77
 msgid ""
 "The Kingdom of Wesnoth is located in the north-central portion of the "
 "<ref>dst='great_continent' text='Great Continent'</ref>. Most of the "
@@ -694,12 +704,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=elensefar
-#: data/core/encyclopedia/geography.cfg:100
+#: data/core/encyclopedia/geography.cfg:106
 msgid "Elensefar"
 msgstr ""
 
 #. [topic]: id=elensefar
-#: data/core/encyclopedia/geography.cfg:101
+#: data/core/encyclopedia/geography.cfg:107
 msgid ""
 "Elensefar is at times a province of <ref>dst='kingdom_wesnoth' "
 "text='Wesnoth'</ref>, at times an independent country, and at times in a "
@@ -719,12 +729,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=northlands
-#: data/core/encyclopedia/geography.cfg:113
+#: data/core/encyclopedia/geography.cfg:119
 msgid "Northlands"
 msgstr ""
 
 #. [topic]: id=northlands
-#: data/core/encyclopedia/geography.cfg:114
+#: data/core/encyclopedia/geography.cfg:120
 msgid ""
 "There is no government of the Northlands. Various groups of orcs, dwarves, "
 "barbarian men and even elves populate the region. The northern and eastern "
@@ -767,12 +777,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=southwest_elven_lands
-#: data/core/encyclopedia/geography.cfg:135
+#: data/core/encyclopedia/geography.cfg:141
 msgid "Southwest Elven Lands"
 msgstr ""
 
 #. [topic]: id=southwest_elven_lands
-#: data/core/encyclopedia/geography.cfg:136
+#: data/core/encyclopedia/geography.cfg:142
 msgid ""
 "The Wood Elves are separate from those of the north, and have only "
 "intermittent relations with them and most other countries. Its borders are "
@@ -793,12 +803,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=heart_mountains
-#: data/core/encyclopedia/geography.cfg:148
+#: data/core/encyclopedia/geography.cfg:154
 msgid "Heart Mountains"
 msgstr ""
 
 #. [topic]: id=heart_mountains
-#: data/core/encyclopedia/geography.cfg:149
+#: data/core/encyclopedia/geography.cfg:155
 msgid ""
 "A virtually impassable barrier between the <ref>dst='arkan_thoria' "
 "text='river'</ref> country and the <ref>dst='far_north' text='Northern "
@@ -806,12 +816,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=far_north
-#: data/core/encyclopedia/geography.cfg:154
+#: data/core/encyclopedia/geography.cfg:160
 msgid "Far North"
 msgstr ""
 
 #. [topic]: id=far_north
-#: data/core/encyclopedia/geography.cfg:155
+#: data/core/encyclopedia/geography.cfg:161
 msgid ""
 "Cold, harsh, and inaccessible, the Far North is the ancestral home of the "
 "Orcish Clannate. It lies north of the <ref>dst='heart_mountains' text='Heart "
@@ -865,7 +875,7 @@ msgstr ""
 
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
-#: data/core/help.cfg:33 data/core/help.cfg:394
+#: data/core/help.cfg:33 data/core/help.cfg:396
 msgid "Traits"
 msgstr ""
 
@@ -895,19 +905,19 @@ msgstr ""
 
 #. [section]: id=terrains_section
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:74 data/core/help.cfg:409
+#: data/core/help.cfg:74 data/core/help.cfg:411
 msgid "Terrains"
 msgstr ""
 
 #. [section]: id=addons
 #. [topic]: id=..addons
-#: data/core/help.cfg:82 data/core/help.cfg:462
+#: data/core/help.cfg:82 data/core/help.cfg:464
 msgid "Add-ons"
 msgstr ""
 
 #. [section]: id=commands
 #. [topic]: id=..commands
-#: data/core/help.cfg:88 data/core/help.cfg:535
+#: data/core/help.cfg:88 data/core/help.cfg:537
 msgid "Commands"
 msgstr ""
 
@@ -1114,7 +1124,7 @@ msgid ""
 "and at times during it, you will need to recruit <ref>dst='..units' "
 "text='units'</ref> into your army. To recruit, you must have your leader "
 "(for instance, Konrad in the <italic>text='Heir to the Throne'</italic> "
-"campaign) on the keep hex of a <ref>dst='terrain_castle' text='castle'</"
+"campaign) on the keep hex of a <ref>dst='..terrain_castle' text='castle'</"
 "ref>. Then you may recruit by either choosing <bold>text='Recruit'</bold> "
 "from the menu or right-clicking on a hex and selecting <bold>text='Recruit'</"
 "bold>. This brings up the recruit menu, which lists units available for "
@@ -1336,8 +1346,8 @@ msgid ""
 "of control in the hexes immediately surrounding it, and any enemy unit "
 "entering those hexes immediately ends its movement. Learning how to use "
 "zones of control to your advantage is an important part of Wesnoth, as only "
-"<ref>dst='ability_skirmisher' text='skirmishers'</ref> can ignore zones of "
-"control."
+"<ref>dst='ability_skirmisherskirmisher' text='skirmishers'</ref> can ignore "
+"zones of control."
 msgstr ""
 
 #. [topic]: id=movement
@@ -1667,16 +1677,25 @@ msgstr ""
 #: data/core/help.cfg:354
 msgid ""
 "Some role-playing scenarios take place indoors — these regions are similarly "
-"intermediate."
+"intermediate.\n"
+msgstr ""
+
+#. [topic]: id=time_of_day
+#: data/core/help.cfg:356
+msgid ""
+"Finally, units with the <ref>dst='ability_illuminationilluminates' "
+"text='illuminates'</ref> ability and terrain features such as "
+"<ref>dst='terrain_lava' text='lava'</ref> change the time of day bonus "
+"around them."
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:361
+#: data/core/help.cfg:363
 msgid "Healing"
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:362
+#: data/core/help.cfg:364
 msgid ""
 "\n"
 "\n"
@@ -1685,7 +1704,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:362
+#: data/core/help.cfg:364
 msgid ""
 "In combat, your units will inevitably take damage. There are several ways to "
 "heal your units. However, with the exception of resting, these do not stack; "
@@ -1693,44 +1712,46 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:364
-msgid ""
-"\n"
-"• <bold>text='Villages'</bold>: A unit which starts a turn in a village or "
-"oasis will heal 8HP. If the unit is poisoned, the poison will be cured "
-"instead."
-msgstr ""
-
-#. [topic]: id=healing
-#: data/core/help.cfg:365
-msgid ""
-"\n"
-"• <ref>dst='ability_regenerates' text='Regeneration'</ref>: Certain units "
-"(such as trolls) will automatically heal 8HP every turn. If the unit is "
-"poisoned, the poison will be cured instead."
-msgstr ""
-
-#. [topic]: id=healing
 #: data/core/help.cfg:366
 msgid ""
 "\n"
-"• <bold>text='Healing units'</bold>: Units with the <ref>dst='ability_heals "
-"+4' text='Heals'</ref> ability will heal each allied adjacent unit, usually "
-"<ref>dst='ability_heals +4' text='4HP'</ref> or <ref>dst='ability_heals +8' "
-"text='8HP'</ref> per turn, or prevent Poison from causing that unit damage."
+"• <bold>text='Villages'</bold>: A unit which starts a turn in a village or "
+"<ref>dst='terrain_oasis' text='oasis'</ref> foo will heal 8HP. If the unit "
+"is poisoned, the poison will be cured instead."
 msgstr ""
 
 #. [topic]: id=healing
 #: data/core/help.cfg:367
 msgid ""
 "\n"
-"• <bold>text='Curing units'</bold>: Units with the <ref>dst='ability_cures' "
-"text='cures'</ref> ability will cure Poison in all allied adjacent units (in "
-"preference to healing, if it has that ability as well)."
+"• <ref>dst='ability_regeneratesregenerates' text='Regeneration'</ref>: "
+"Certain units (such as trolls) will automatically heal 8HP every turn. If "
+"the unit is poisoned, the poison will be cured instead."
 msgstr ""
 
 #. [topic]: id=healing
 #: data/core/help.cfg:368
+msgid ""
+"\n"
+"• <bold>text='Healing units'</bold>: Units with the "
+"<ref>dst='ability_healingheals +4' text='Heals'</ref> ability will heal each "
+"allied adjacent unit, usually <ref>dst='ability_healingheals +4' text='4HP'</"
+"ref> or <ref>dst='ability_healingheals +8' text='8HP'</ref> per turn, or "
+"prevent Poison from causing that unit damage."
+msgstr ""
+
+#. [topic]: id=healing
+#: data/core/help.cfg:369
+msgid ""
+"\n"
+"• <bold>text='Curing units'</bold>: Units with the "
+"<ref>dst='ability_curingcures' text='cures'</ref> ability will cure Poison "
+"in all allied adjacent units (in preference to healing, if it has that "
+"ability as well)."
+msgstr ""
+
+#. [topic]: id=healing
+#: data/core/help.cfg:370
 msgid ""
 "\n"
 "• <bold>text='Advancement'</bold>: When a unit <ref>dst='advancement' "
@@ -1739,7 +1760,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:369
+#: data/core/help.cfg:371
 msgid ""
 "\n"
 "\n"
@@ -1749,7 +1770,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:371
+#: data/core/help.cfg:373
 msgid ""
 "\n"
 "\n"
@@ -1757,7 +1778,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=healing
-#: data/core/help.cfg:373
+#: data/core/help.cfg:375
 msgid ""
 "\n"
 "\n"
@@ -1769,12 +1790,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=wrap_up
-#: data/core/help.cfg:381
+#: data/core/help.cfg:383
 msgid "Wrap Up"
 msgstr ""
 
 #. [topic]: id=wrap_up
-#: data/core/help.cfg:382
+#: data/core/help.cfg:384
 msgid ""
 "This concludes the fundamentals of Wesnoth. You might want to read up on "
 "basic strategy, or familiarize yourself with <ref>dst='..traits_section' "
@@ -1784,12 +1805,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=license
-#: data/core/help.cfg:387
+#: data/core/help.cfg:389
 msgid "License"
 msgstr ""
 
 #. [topic]: id=..traits_section
-#: data/core/help.cfg:396
+#: data/core/help.cfg:398
 msgid ""
 "\n"
 "\n"
@@ -1800,7 +1821,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..traits_section
-#: data/core/help.cfg:396
+#: data/core/help.cfg:398
 msgid ""
 "Traits are modifications that change a unit’s attributes slightly. They are "
 "usually randomly assigned to a unit when it is recruited. The traits "
@@ -1809,7 +1830,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..traits_section
-#: data/core/help.cfg:398
+#: data/core/help.cfg:400
 msgid ""
 "\n"
 "\n"
@@ -1820,7 +1841,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..traits_section
-#: data/core/help.cfg:400
+#: data/core/help.cfg:402
 msgid ""
 "\n"
 "\n"
@@ -1834,7 +1855,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:410
+#: data/core/help.cfg:412
 msgid ""
 "\n"
 "\n"
@@ -1843,14 +1864,14 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:410
+#: data/core/help.cfg:412
 msgid ""
 "Game maps feature a variety of terrains that affect both unit movement and a "
 "unit’s defensive capability in combat."
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:412
+#: data/core/help.cfg:414
 msgid ""
 "\n"
 "\n"
@@ -1858,7 +1879,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:414
+#: data/core/help.cfg:416
 msgid ""
 "\n"
 "\n"
@@ -1869,7 +1890,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:418
+#: data/core/help.cfg:420
 msgid ""
 "\n"
 "\n"
@@ -1879,7 +1900,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:420
+#: data/core/help.cfg:422
 msgid ""
 "\n"
 "\n"
@@ -1887,7 +1908,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:422
+#: data/core/help.cfg:424
 msgid ""
 "\n"
 "\n"
@@ -1901,7 +1922,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:426
+#: data/core/help.cfg:428
 msgid ""
 "\n"
 "\n"
@@ -1916,7 +1937,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:430
+#: data/core/help.cfg:432
 msgid ""
 "\n"
 "\n"
@@ -1927,7 +1948,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:434
+#: data/core/help.cfg:436
 msgid ""
 "\n"
 "\n"
@@ -1938,7 +1959,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:438
+#: data/core/help.cfg:440
 msgid ""
 "\n"
 "\n"
@@ -1948,7 +1969,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:440
+#: data/core/help.cfg:442
 msgid ""
 "\n"
 "\n"
@@ -1959,7 +1980,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:442
+#: data/core/help.cfg:444
 msgid ""
 "\n"
 "\n"
@@ -1967,7 +1988,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:444
+#: data/core/help.cfg:446
 msgid ""
 "\n"
 "\n"
@@ -1977,7 +1998,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:446
+#: data/core/help.cfg:448
 msgid ""
 "\n"
 "\n"
@@ -1988,7 +2009,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:448
+#: data/core/help.cfg:450
 msgid ""
 "\n"
 "\n"
@@ -1997,7 +2018,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..terrains_section
-#: data/core/help.cfg:450
+#: data/core/help.cfg:452
 msgid ""
 "\n"
 "\n"
@@ -2006,7 +2027,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..addons
-#: data/core/help.cfg:463
+#: data/core/help.cfg:465
 msgid ""
 "The degree of customization offered by the Wesnoth engine allows players to "
 "create their own game content, including new scenarios, campaigns, and much "
@@ -2015,12 +2036,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:473
+#: data/core/help.cfg:475
 msgid "Using Add-ons"
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:474
+#: data/core/help.cfg:476
 msgid ""
 "\n"
 "\n"
@@ -2028,14 +2049,14 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:474
+#: data/core/help.cfg:476
 msgid ""
 "The game supports different types of add-on content, which are not all "
 "available in every gameplay mode."
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:476
+#: data/core/help.cfg:478
 msgid ""
 "\n"
 "\n"
@@ -2046,7 +2067,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:478
+#: data/core/help.cfg:480
 msgid ""
 "\n"
 "\n"
@@ -2054,7 +2075,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:480
+#: data/core/help.cfg:482
 msgid ""
 "\n"
 "\n"
@@ -2064,7 +2085,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:482
+#: data/core/help.cfg:484
 msgid ""
 "\n"
 "\n"
@@ -2072,7 +2093,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:484
+#: data/core/help.cfg:486
 msgid ""
 "\n"
 "\n"
@@ -2087,7 +2108,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:488
+#: data/core/help.cfg:490
 msgid ""
 "\n"
 "\n"
@@ -2096,7 +2117,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:490
+#: data/core/help.cfg:492
 msgid ""
 "\n"
 "\n"
@@ -2104,7 +2125,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:492
+#: data/core/help.cfg:494
 msgid ""
 "\n"
 "\n"
@@ -2114,7 +2135,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:494
+#: data/core/help.cfg:496
 msgid ""
 "\n"
 "\n"
@@ -2122,7 +2143,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:496
+#: data/core/help.cfg:498
 msgid ""
 "\n"
 "\n"
@@ -2136,7 +2157,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:500
+#: data/core/help.cfg:502
 msgid ""
 "\n"
 "\n"
@@ -2144,7 +2165,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=using_addons
-#: data/core/help.cfg:502
+#: data/core/help.cfg:504
 msgid ""
 "\n"
 "\n"
@@ -2156,12 +2177,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=installing_addons
-#: data/core/help.cfg:511
+#: data/core/help.cfg:513
 msgid "Installing Add-ons"
 msgstr ""
 
 #. [topic]: id=installing_addons
-#: data/core/help.cfg:512
+#: data/core/help.cfg:514
 msgid ""
 "User-made add-ons can be obtained and updated through the <italic>text='Add-"
 "ons'</italic> option in the main menu. After connecting to the add-ons "
@@ -2187,12 +2208,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=removing_addons
-#: data/core/help.cfg:525
+#: data/core/help.cfg:527
 msgid "Removing Add-ons"
 msgstr ""
 
 #. [topic]: id=removing_addons
-#: data/core/help.cfg:526
+#: data/core/help.cfg:528
 msgid ""
 "To remove add-ons, choose <bold>text='Remove Add-ons'</bold> in the add-ons "
 "server connection dialog. You will be presented with options to remove any "
@@ -2206,14 +2227,14 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:541
+#: data/core/help.cfg:543
 msgid "General Commands"
 msgstr ""
 
 #. [topic]: id=general_commands
 #. [topic]: id=mp_commands
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:543 data/core/help.cfg:586 data/core/help.cfg:624
+#: data/core/help.cfg:545 data/core/help.cfg:588 data/core/help.cfg:626
 msgid ""
 "These commands can either be issued via the command line by prefixing them "
 "with ':' (as shown here) or via the chat by prefixing them with '/' (press "
@@ -2222,7 +2243,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:545
+#: data/core/help.cfg:547
 msgid ""
 "\n"
 "Clear chat messages.\n"
@@ -2230,7 +2251,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:548
+#: data/core/help.cfg:550
 msgid ""
 "\n"
 "Switch debug mode on (does not work in multiplayer). See "
@@ -2240,7 +2261,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:552
+#: data/core/help.cfg:554
 msgid ""
 "\n"
 "Set or toggle player on side between human and AI player. The player/client "
@@ -2252,7 +2273,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:555
+#: data/core/help.cfg:557
 msgid ""
 "\n"
 "Display the controller status of a side.\n"
@@ -2260,7 +2281,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:558
+#: data/core/help.cfg:560
 msgid ""
 "\n"
 "Toggle the display of the current frames per second.\n"
@@ -2268,7 +2289,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:561
+#: data/core/help.cfg:563
 msgid ""
 "\n"
 "Switch a log domain to a different log level.\n"
@@ -2276,7 +2297,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:564
+#: data/core/help.cfg:566
 msgid ""
 "\n"
 "Redraws the screen and reloads any image files that have been changed.\n"
@@ -2284,7 +2305,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:567
+#: data/core/help.cfg:569
 msgid ""
 "\n"
 "Bring up theme selection menu.\n"
@@ -2292,7 +2313,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:570
+#: data/core/help.cfg:572
 msgid ""
 "\n"
 "Quit the scenario (without prompting).\n"
@@ -2300,7 +2321,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:573
+#: data/core/help.cfg:575
 msgid ""
 "\n"
 "Save the game (without prompting).\n"
@@ -2308,19 +2329,19 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:576
+#: data/core/help.cfg:578
 msgid ""
 "\n"
 "Save the game and quit the scenario (without prompting)."
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:585
+#: data/core/help.cfg:587
 msgid "Multiplayer Commands"
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:588
+#: data/core/help.cfg:590
 msgid ""
 "\n"
 "Ban a user in a multiplayer game by the IP address used by that username and "
@@ -2330,7 +2351,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:591
+#: data/core/help.cfg:593
 msgid ""
 "\n"
 "Change the controller for side (write here the number of the side) to "
@@ -2343,7 +2364,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:594
+#: data/core/help.cfg:596
 msgid ""
 "\n"
 "Launch a dialog to assist the host in changing the human controllers of "
@@ -2352,7 +2373,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:597
+#: data/core/help.cfg:599
 msgid ""
 "\n"
 "Toggle the idle state for a side. The host may make a side idle after a "
@@ -2361,7 +2382,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:600
+#: data/core/help.cfg:602
 msgid ""
 "\n"
 "Kick a user in multiplayer. They will be able to rejoin the game. If you "
@@ -2371,7 +2392,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:603
+#: data/core/help.cfg:605
 msgid ""
 "\n"
 "Send a private message to a user. When in a game, it is not possible to send "
@@ -2381,7 +2402,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:606
+#: data/core/help.cfg:608
 msgid ""
 "\n"
 "Mute a specific observer. If no username is supplied the muted usernames are "
@@ -2390,7 +2411,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:609
+#: data/core/help.cfg:611
 msgid ""
 "\n"
 "Toggle muting/silencing of all observers on/off.\n"
@@ -2398,7 +2419,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:612
+#: data/core/help.cfg:614
 msgid ""
 "\n"
 "Unban a user in a multiplayer game by the IP address used by that username. "
@@ -2407,7 +2428,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:615
+#: data/core/help.cfg:617
 msgid ""
 "\n"
 "Unmute a specific observer. If no username is supplied the list of muted "
@@ -2415,12 +2436,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:623
+#: data/core/help.cfg:625
 msgid "Debug Mode Commands"
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:626
+#: data/core/help.cfg:628
 msgid ""
 "\n"
 "Brings up a menu for choosing a scenario to immediately advance to in a "
@@ -2429,7 +2450,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:629
+#: data/core/help.cfg:631
 msgid ""
 "\n"
 "Create a unit of the specified type on the selected hex.\n"
@@ -2437,7 +2458,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:632
+#: data/core/help.cfg:634
 msgid ""
 "\n"
 "Toggle fog/shroud for the current side.\n"
@@ -2445,7 +2466,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:635
+#: data/core/help.cfg:637
 msgid ""
 "\n"
 "Adds the specified amount to the current side’s gold.\n"
@@ -2453,7 +2474,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:638
+#: data/core/help.cfg:640
 msgid ""
 "\n"
 "Immediately advances to the next scenario in a campaign.\n"
@@ -2461,7 +2482,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:641
+#: data/core/help.cfg:643
 msgid ""
 "\n"
 "Manually set a gamestate variable to value.\n"
@@ -2469,7 +2490,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:644
+#: data/core/help.cfg:646
 msgid ""
 "\n"
 "Show a gamestate variable.\n"
@@ -2477,7 +2498,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:647
+#: data/core/help.cfg:649
 msgid ""
 "\n"
 "Manually fire the specified event.\n"
@@ -2485,7 +2506,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:650
+#: data/core/help.cfg:652
 msgid ""
 "\n"
 "Modifies the specified property of the selected unit. Example: :unit "
@@ -2494,7 +2515,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:653
+#: data/core/help.cfg:655
 msgid ""
 "\n"
 "Makes the selected unit level up N times. Example: :unit advances=2"
@@ -2743,6 +2764,18 @@ msgid ""
 "except units that are immune to plague."
 msgstr ""
 
+#. [berserk]: id=berserk
+#: data/core/macros/abilities.cfg:274
+msgid "berserk"
+msgstr ""
+
+#. [berserk]: id=berserk
+#: data/core/macros/abilities.cfg:275
+msgid ""
+"Whether used offensively or defensively, this attack presses the engagement "
+"until one of the combatants is slain, or 30 rounds of attacks have occurred."
+msgstr ""
+
 #. [damage]: id=backstab
 #: data/core/macros/abilities.cfg:285
 msgid "backstab"
@@ -2813,6 +2846,18 @@ msgstr ""
 #: data/core/macros/abilities.cfg:347
 msgid ""
 "When used offensively, this attack always has at least a 60% chance to hit."
+msgstr ""
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/abilities.cfg:359
+msgid "magical"
+msgstr ""
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/abilities.cfg:360
+msgid ""
+"This attack always has a 70% chance to hit regardless of the defensive "
+"ability of the unit being attacked."
 msgstr ""
 
 #. [swarm]: id=swarm
