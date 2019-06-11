@@ -271,9 +271,9 @@ static hitrate_table_element tally(const statistics::stats::hitrate_map& by_cth,
 			};
 
 			// TODO: document for users what these values are.
-			add_probability(probability_lt, !more_is_better);
+			add_probability(probability_lt, more_is_better);
 			str2 << ", ";
-			add_probability(probability_gt, more_is_better);
+			add_probability(probability_gt, !more_is_better);
 		}
 	}
 
